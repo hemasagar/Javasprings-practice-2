@@ -10,7 +10,11 @@
 		<constructor-arg value="Mike's fruitbasket"></constructor-arg>
 		<constructor-arg>
 			<list>
-				<value></value>
+				<value>Orange</value>
+				<value>Apple</value>
+				<value>Mango</value>
+				<value>Grapes</value>
+				<value>Apple</value>
 			</list>
 		</constructor-arg>
 	</bean>

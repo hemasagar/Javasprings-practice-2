@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="jungle" class="com.javaspring.tutorial.Jungle">
+
+		<property name="largest" ref="elephant"></property>
+		<property name="animals">
+			<list>
+				<ref bean="snake" />
+				<ref bean="lion" />
+				<ref bean="elephant" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="lion" class="com.javaspring.tutorial.Animal">
+		<property name="name" value="Frank"></property>
+		<property name="type" value="lion"></property>
+	</bean>
+	<bean id="elephant" class="com.javaspring.tutorial.Animal">
+		<property name="name" value="Apu"></property>
+		<property name="type" value="elephant"></property>
+	</bean>
+	<bean id="snake" class="com.javaspring.tutorial.Animal">
+		<property name="name" value="seviper"></property>
+		<property name="type" value="snake"></property>
+	</bean>
+
+	<bean id="jungle1" class="com.javaspring.tutorial.Jungle1">
+
+		<property name="foods">
+			<props>
+				<prop key="giraffe">bael</prop>
+				<prop key="chimpanzee">banana</prop>
+				<prop key="snake">eggs</prop>
+			</props>
+		</property>
+
+		<property name="animals">
+			<map>
+				<entry key="lion" value-ref="lion"></entry>
+				<entry key="elephant" value-ref="elephant"></entry>
+				<entry key="snake" value-ref="snake"></entry>
+			</map>
+		</property>
+	</bean>
+</beans>
