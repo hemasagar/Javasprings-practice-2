@@ -12,5 +12,6 @@ local.properties
 .classpath
 /RemoteSystemsTempFiles
 .DS_Store
-
+.springBeans
+target/
 
