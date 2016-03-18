@@ -5,6 +5,7 @@ tmp/
 *.bak
 *.swp
 *~.nib
+*.mwb
 local.properties
 .settings/
 .loadpath
@@ -14,4 +15,3 @@ local.properties
 .DS_Store
 .springBeans
 */target/*
-
