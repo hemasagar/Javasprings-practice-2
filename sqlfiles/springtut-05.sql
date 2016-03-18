@@ -30,7 +30,7 @@ CREATE TABLE `offers` (
   `email` varchar(72) NOT NULL,
   `text` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `offers` (
 
 LOCK TABLES `offers` WRITE;
 /*!40000 ALTER TABLE `offers` DISABLE KEYS */;
-INSERT INTO `offers` VALUES (1,'John','johndoe8472@gmail.com','This is a test entry'),(2,'Spike','spikedoe8472@gmail.com','Please reply to me ASAP'),(3,'Jane','janedor@yahoo.com','So what plans are available'),(4,'Bob','bobink123@yahoo.com','PHP coding required urgent');
+INSERT INTO `offers` VALUES (1,'John','johndoe8472@gmail.com','This is a test entry'),(2,'Spike','spikedoe8472@gmail.com','Please reply to me ASAP'),(3,'Jane','janedor@yahoo.com','So what plans are available'),(4,'Bob','bobink123@yahoo.com','PHP coding required urgent'),(5,'Mugen','mugenrock339@yahoo.com','Angular js specialist'),(6,'Kat','kate3848@gmail.com','Css front end designer'),(7,'Ram','ramna4837@aol.com','Node js developer');
 /*!40000 ALTER TABLE `offers` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-03-18 10:25:21
+-- Dump completed on 2016-03-18 15:21:43
